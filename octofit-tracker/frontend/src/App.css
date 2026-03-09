@@ -1,0 +1,85 @@
+/* App.css for OctoFit Tracker custom styling */
+body {
+  background: linear-gradient(135deg, #f8f9fa 60%, #e3e6f3 100%);
+  color: #222;
+}
+
+h1, h2, h3, .card-title {
+  color: #512a97;
+}
+
+.table {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(80, 42, 151, 0.08);
+}
+
+.table th {
+  background-color: #ecd8ff;
+  color: #512a97;
+}
+
+.table td {
+  color: #222;
+}
+
+.btn-primary, .btn-success, .btn-warning, .btn-secondary, .btn-danger {
+  border-radius: 6px;
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #512a97;
+  border-color: #512a97;
+}
+
+.btn-success {
+  background-color: #3bb273;
+  border-color: #3bb273;
+}
+
+.btn-warning {
+  background-color: #ffd600;
+  border-color: #ffd600;
+  color: #512a97;
+}
+
+.btn-secondary {
+  background-color: #ecd8ff;
+  border-color: #ecd8ff;
+  color: #512a97;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.navbar {
+  background-color: #ecd8ff !important;
+}
+
+.navbar-brand {
+  color: #512a97 !important;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #512a97 !important;
+  font-weight: 500;
+}
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(80, 42, 151, 0.10);
+}
+
+/* Logo styling */
+.logo {
+  height: 40px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+/* Favicon and logo placeholder */
+/* Add your logo and favicon images to the public directory and reference them in index.html */
